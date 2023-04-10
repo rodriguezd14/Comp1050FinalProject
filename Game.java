@@ -46,6 +46,12 @@ public class Game
 				System.out.println("Your game status is: " + hGame.getGameStatus());
 			}
 			
+			//Checks the length of the input string
+			else if(letter.length() > 1)
+			{
+				System.out.println("Only choose a letter.");
+			}
+			
 			//Checks if the letter exist and stores it in a boolean
 			else if(hGame.checkLetter(letter))
 			{
@@ -61,7 +67,7 @@ public class Game
 					System.exit(0);
 				}
 			}
-			else if(!hGame.checkLetter(letter))
+			else
 			{
 				//Get current game status
 				System.out.println("Your game status is: " + hGame.getGameStatus());
