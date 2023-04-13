@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.GameController">
+   <children>
+      <Pane fx:id="gameBoard" layoutX="-1.0" layoutY="-1.0" prefHeight="1000.0" prefWidth="1000.0" style="-fx-background-color: #87CEEB;">
+         <children>
+            <Label layoutX="295.0" layoutY="29.0" prefHeight="135.0" prefWidth="410.0" text="Hangman">
+               <font>
+                  <Font name="Arial Black" size="76.0" />
+               </font>
+            </Label>
+            <Text fx:id="displayText" layoutX="316.0" layoutY="417.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="367.13671875">
+               <font>
+                  <Font size="48.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
