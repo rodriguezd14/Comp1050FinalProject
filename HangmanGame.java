@@ -1,3 +1,5 @@
+package javaFXDemo;
+
 /*
  * Comp1050 HangmanGame
  */
